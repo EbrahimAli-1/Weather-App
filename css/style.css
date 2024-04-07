@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  color: #E7E7EB;
+}
+
+.container .nav {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #1E213A;
+  position: relative;
+  text-align: center;
+}
+
+.nav .location {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.nav .location button {
+  background-color: #6E707A;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 400;
+}
+
+.nav .location .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E707A;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.nav .background {
+  position: absolute;
+  /* top: 100px;
+  right: 20px; */
+  background-size: cover;
+  width: 150%;
+  opacity: 5%;
+top: 103px;
+left: -111px;
+}
+
+.nav .details .temp {
+  margin: 60px;
+}
+
+.nav .details .temp span {
+  font-size: 144px;
+  color: white;
+}
+
+.nav .details .temp .deg {
+  font-size: 48px;
+  color: #A09FB1;
+}
+
+.nav .details .date {
+  color: #A09FB1;
+}
+
+.nav .details .date h3 {
+  font-size: 50px;
+  margin: 70px;
+}
+
+.nav .details .date .p1 {
+  margin: 30px;
+  font-size: 16px;
+}
+
+.nav .details .date .p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav .details .date .p2 .loc {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.container .main {
+  background-color: #100E1D;
+  flex-grow: 1;
+  padding: 40px 100px;
+}
+
+.main .temp {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.main .temp div {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #585676;
+  color: #E7E7EB;
+}
+
+.main .temp .activated {
+  background-color: #E7E7EB;
+  color: #585676;
+}
+
+.main .days {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.main .days .day {
+
+}
+
+.main .days .day .date {
+
+}
+
+.main .days .day img {
+
+}
+
+.main .days .day .degrees {
+
+}
+
+.main .days .day .degrees .max {
+
+}
+
+.main .days .day .degrees .min {
+
+}
+
