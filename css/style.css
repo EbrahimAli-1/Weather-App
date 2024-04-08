@@ -20,6 +20,7 @@
   background-color: #1E213A;
   position: relative;
   text-align: center;
+  flex-grow: 1;
 }
 
 .nav .location {
@@ -49,13 +50,11 @@
 
 .nav .background {
   position: absolute;
-  /* top: 100px;
-  right: 20px; */
   background-size: cover;
   width: 150%;
   opacity: 5%;
-top: 103px;
-left: -111px;
+  top: 55px;
+  left: -150px;
 }
 
 .nav .details .temp {
@@ -100,14 +99,19 @@ left: -111px;
 
 .container .main {
   background-color: #100E1D;
-  flex-grow: 1;
-  padding: 40px 100px;
+  flex-grow: 2;
+  padding: 120px 50px;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .main .temp {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+  position: absolute;
+  top: 40px;
+  right: 125px;
 }
 
 .main .temp div {
@@ -132,30 +136,90 @@ left: -111px;
 
 .main .days {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, 140px);
+  width: 780px;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .main .days .day {
-
+  background-color: #1E213A;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .main .days .day .date {
-
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .main .days .day img {
-
+  height: 62px;
 }
 
 .main .days .day .degrees {
-
-}
-
-.main .days .day .degrees .max {
-
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 .main .days .day .degrees .min {
+  color: #A09FB1;
+}
+
+.container .main .highlights {
+  margin: 40px auto;
+  width: 780px;
+}
+
+.main .highlights h2 {
+  margin-bottom: 20px;
+}
+
+.main .highlights .highlight-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main .highlights .highlight-box .data-box {
+  padding: 30px 40px;
+  background-color: #1E213A;
+  width: calc((100% - 20px) / 2);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.main .highlights .highlight-box .data-box h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.main .highlights .highlight-box .data-box p {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.main .highlights .highlight-box .data-box p span {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.main .highlights .highlight-box .data-box i {
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #6E707A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
 
 }
 
+.main .highlights .highlight-box .data-box i svg {
+  transform: rotate(180deg);
+}
