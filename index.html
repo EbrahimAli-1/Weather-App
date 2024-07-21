@@ -38,20 +38,47 @@
             </svg>
           </i>
         </div>
-        <img class="background" src="./img/Cloud-background.png" alt="" />
+        <i class="background top-left">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"
+            />
+          </svg>
+        </i>
+        <i class="background top-right">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"
+            />
+          </svg>
+        </i>
+        <i class="background bottom-left">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"
+            />
+          </svg>
+        </i>
+        <i class="background bottom-right">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+            <path
+              d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"
+            />
+          </svg>
+        </i>
         <div class="image">
-          <img src="./img/Shower.png" alt="Shower" />
+          <img src="./img/HeavyCloud.png" alt="Shower" />
         </div>
         <div class="details">
           <div class="temp">
-            <span>15</span>
+            <span>n/a</span>
             <span class="deg">°C</span>
           </div>
           <div class="date">
-            <h3>Shower</h3>
+            <h3>n/a</h3>
             <p class="p1">
               Today &nbsp; &nbsp; • &nbsp; &nbsp;
-              <span class="date-time">Fri, 5 Jun</span>
+              <span class="date-time">n/a</span>
             </p>
             <p class="p2">
               <i>
@@ -67,9 +94,46 @@
                   />
                 </svg>
               </i>
-              <span class="loc"> Your Location </span>
+              <span class="loc"> n/a </span>
             </p>
           </div>
+        </div>
+      </div>
+      <div class="find-location">
+        <label class="handle" for="handle">X</label>
+        <form action="" class="location-form">
+          <label for="sea" class="location-search">
+            <svg
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                  stroke="#616475"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            <input id="search" placeholder="search location" type="text" />
+          </label>
+          <input type="submit" value="Search" />
+        </form>
+        <div>
+          <select name="cities" id="cities">
+            <option value="Your Location">Your Location</option>
+          </select>
         </div>
       </div>
       <div class="main">
@@ -79,52 +143,52 @@
         </div>
         <div class="days">
           <div class="day">
-            <div class="date">Tomorrow</div>
+            <div class="date">n/a</div>
             <img src="./img/HeavyCloud.png" alt="" />
             <div class="degrees">
-              <div class="max">16°C</div>
-              <div class="min">11°C</div>
+              <div class="max">n/a°C</div>
+              <div class="min">n/a°C</div>
             </div>
           </div>
           <div class="day">
-            <div class="date">Tomorrow</div>
-            <img src="./img/LightCloud.png" alt="" />
+            <div class="date">n/a</div>
+            <img src="./img/HeavyCloud.png" alt="" />
             <div class="degrees">
-              <div class="max">16°C</div>
-              <div class="min">11°C</div>
+              <div class="max">n/a°C</div>
+              <div class="min">n/a°C</div>
             </div>
           </div>
           <div class="day">
-            <div class="date">Tomorrow</div>
-            <img src="./img/LightRain.png" alt="" />
+            <div class="date">n/a</div>
+            <img src="./img/HeavyCloud.png" alt="" />
             <div class="degrees">
-              <div class="max">16°C</div>
-              <div class="min">11°C</div>
+              <div class="max">n/a°C</div>
+              <div class="min">n/a°C</div>
             </div>
           </div>
           <div class="day">
-            <div class="date">Tomorrow</div>
-            <img src="./img/Sleet.png" alt="" />
+            <div class="date">n/a</div>
+            <img src="./img/HeavyCloud.png" alt="" />
             <div class="degrees">
-              <div class="max">16°C</div>
-              <div class="min">11°C</div>
+              <div class="max">n/a°C</div>
+              <div class="min">n/a°C</div>
             </div>
           </div>
           <div class="day">
-            <div class="date">Tomorrow</div>
-            <img src="./img/HeavyRain.png" alt="" />
+            <div class="date">n/a</div>
+            <img src="./img/HeavyCloud.png" alt="" />
             <div class="degrees">
-              <div class="max">16°C</div>
-              <div class="min">11°C</div>
+              <div class="max">n/a°C</div>
+              <div class="min">n/a°C</div>
             </div>
           </div>
         </div>
         <div class="highlights">
           <h2>Today's Highlights</h2>
           <div class="highlight-box">
-            <div class="data-box">
+            <div class="data-box wind">
               <h4>Wind status</h4>
-              <p>3.8<span>mph</span></p>
+              <p>n/a</p>
               <i>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -133,27 +197,28 @@
                   width="18"
                 >
                   <path
-                  fill="#ffffff"
+                    fill="#ffffff"
                     d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
                   />
                 </svg>
               </i>
             </div>
-            <div class="data-box">
+            <div class="data-box humadity">
               <h4>Humadity</h4>
-              <p>84<span>%</span></p>
+              <p>n/a</p>
             </div>
-            <div class="data-box">
+            <div class="data-box visibility">
               <h4>Visibility</h4>
-              <p>6,4<span> miles</span></p>
+              <p>n/a</p>
             </div>
-            <div class="data-box">
+            <div class="data-box pressure">
               <h4>Air pressure</h4>
-              <p>998<span> mb</span></p>
+              <p>n/a</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
