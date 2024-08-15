@@ -122,13 +122,6 @@ function handleDates(date) {
   })}`;
 }
 
-// async function geolocation(lat, lon) {}
-
-// async function checkWeather() {
-//   todayData();
-//   daysData();
-// }
-
 async function todayData() {
   let data = await (
     await fetch(
